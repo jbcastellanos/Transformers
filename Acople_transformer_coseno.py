@@ -122,4 +122,4 @@ passage_embedding = model.encode(['La fracturación hidráulica, fractura hidrá
                                   'Es un deportista de alto nivel',
                                   texto_procesado])
 
-print("Similarity:", util.dot_score(query_embedding, passage_embedding))
+print("Similarity", util.dot_score(query_embedding, passage_embedding))
